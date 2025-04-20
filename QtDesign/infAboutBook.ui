@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1400</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1400</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>1400</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Больше информации о выбранной вами книге</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="locale">
+   <locale language="Russian" country="Russia"/>
+  </property>
+  <widget class="QLabel" name="titlelabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>891</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>900</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;font-family: Impact, Charcoal, sans-serif&lt;/p&gt;&lt;p&gt;font-size: 48pt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;font-family: Impact, Charcoal, sans-serif&lt;/p&gt;&lt;p&gt;font-size: 48pt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Название&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>179</y>
+     <width>891</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Автор произведения&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Количество поштучно&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Цена в рублях&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Жанр произведения&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Год выпуска произведения&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Страна&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="authorlabel">
+        <property name="styleSheet">
+         <string notr="true">font-family: Comic Sans MS;
+  font-size: 20px;
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>Автор</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="countlabel">
+        <property name="styleSheet">
+         <string notr="true">font-family: Comic Sans MS;
+  font-size: 20px;
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>Колво</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="pricelabel">
+        <property name="styleSheet">
+         <string notr="true">font-family: Comic Sans MS;
+  font-size: 20px;
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>Цена</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="genrelabel">
+        <property name="styleSheet">
+         <string notr="true">font-family: Comic Sans MS;
+  font-size: 20px;
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>Жанр</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="rellabel">
+        <property name="styleSheet">
+         <string notr="true">font-family: Comic Sans MS;
+  font-size: 20px;
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>Год выпуска</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="countrylabel">
+        <property name="styleSheet">
+         <string notr="true">font-family: Comic Sans MS;
+  font-size: 20px;
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string>Страна</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>580</y>
+     <width>731</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="editBut">
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 20pt;</string>
+    </property>
+    <property name="text">
+     <string>Редактировать книгу</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteBut">
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 20pt;</string>
+    </property>
+    <property name="text">
+     <string>Удалить книгу</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="sellBut">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>700</y>
+     <width>731</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 20pt;</string>
+   </property>
+   <property name="text">
+    <string>Продать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cover">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>160</y>
+     <width>461</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: red;
+font-size: 20pt;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="text">
+    <string>Обложки нет</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

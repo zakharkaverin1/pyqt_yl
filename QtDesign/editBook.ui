@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Режим редактирования</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+
+font-size: 32pt;
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Редактирование книги&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Примечание:&lt;br/&gt;Если вы не хотите менять какой-то пункт,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;то просто оставьте пустое место&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="oldTitle">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>oldTitle</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="oldGenre">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>oldGenre</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="oldRelease">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>oldRelease</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="oldPrice">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>ldPrice</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="oldCount">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>oldCount</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="oldAuthor">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>oldAuthor</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLineEdit" name="newTitle">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>false</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newGenre">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newRelease">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newPrice">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newCount">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="chooseAuthor">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pictureBut">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 10pt</string>
+         </property>
+         <property name="text">
+          <string>Загрузить картинку</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okBut">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 10pt</string>
+         </property>
+         <property name="text">
+          <string>Сохранить изменения</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="noBut">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 10pt;
+background-color: #BA8A8A;
+</string>
+         </property>
+         <property name="text">
+          <string>Отмена</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

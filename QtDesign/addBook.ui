@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>514</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавление книги</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+font-size: 24pt</string>
+       </property>
+       <property name="text">
+        <string>Добавить новую книгу</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>Название</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>Жанр</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>Год выпуска</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>Цена</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>Количество</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+           <property name="text">
+            <string>Автор</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLineEdit" name="newTitle"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newGenre"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newRelease"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newPrice"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="newCount"/>
+         </item>
+         <item>
+          <widget class="QComboBox" name="chooseAuthor">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pictureBut">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+         </property>
+         <property name="text">
+          <string>Загрузить картинку</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="saveBut">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+         </property>
+         <property name="text">
+          <string>Сохранить книгу</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="noBut">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+         </property>
+         <property name="text">
+          <string>Назад</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

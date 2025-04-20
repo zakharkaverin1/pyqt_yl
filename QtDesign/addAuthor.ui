@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавление автора</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+
+font-size: 24pt;
+</string>
+           </property>
+           <property name="text">
+            <string>Добавить автора</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="styleSheet">
+                  <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Имя</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="styleSheet">
+                  <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Фамилия</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="styleSheet">
+                  <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Страна</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <item>
+                <widget class="QLineEdit" name="nameedit"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="surnameedit"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="countryedit"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="save">
+             <property name="text">
+              <string>Сохранить автора</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_6">
+         <property name="styleSheet">
+          <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+
+font-size: 24pt;
+</string>
+         </property>
+         <property name="text">
+          <string>или</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+
+font-size: 24pt;
+</string>
+           </property>
+           <property name="text">
+            <string>Удалить автора</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Вместе с автором удалятся все его книги</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="authors">
+             <property name="styleSheet">
+              <string notr="true">font-family: 'Comic Sans MS', Gadget, sans-serif;
+</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="remove">
+             <property name="text">
+              <string>Удалить выбранного автора</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="back">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="exc">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
